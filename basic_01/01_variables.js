@@ -1,5 +1,5 @@
 // const VS let VS var
-// implement for real time project 
+// implement for real time project
 
 const accountId = 4561;
 let accountName = "divyasnhu";

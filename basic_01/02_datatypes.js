@@ -9,8 +9,9 @@ let itsLogined = true
 let temp = null
 let jam;
 // null => standalone value
-// undefined => empty value ; not give vlaue 
-//symbole => use in react for componet for using unique 
+// undefined => empty value ; not give value
+//symbole => use in react for componet for using unique
 
 console.table([Name , age,gender,temp,itsLogined,jam])
 console.log(typeof jam)
+
