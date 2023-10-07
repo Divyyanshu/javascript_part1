@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jai shree ram myntra bag adder</title>
+    <link rel="stylesheet" href="myntra.css">
+</head>
+<body>
+    <button class="add-btn" onclick="cartQuanity++;
+    document.querySelector('.CartSummary').innerText = `Your Bag Has ${cartQuanity} Items`">Add to cart</button>
+    <button class="wishlist-btn" onclick="cartQuanity-= 1;
+    document.querySelector('.CartSummary').innerText = `Your Bag Has ${cartQuanity} Items`"> Move to Wishlist</button>
+    <button class="sale-btn" onclick="cartQuanity = cartQuanity + 2;
+    document.querySelector('.CartSummary').innerText = `Your Bag Has ${cartQuanity} Items`"> Add 1+1 sale item</button>
+
+<h1 class="CartSummary"></h1>
+
+<script>
+let cartQuanity = 0;
+document.querySelector('.CartSummary').innerText = `Your Bag Has ${cartQuanity} Items`
+</script>
+</body>
+</html>
