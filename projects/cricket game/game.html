@@ -5,8 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jai shree ram (CRICKET GAME)</title>
+    <link rel="stylesheet" href="game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat&family=Nunito:wght@600&family=Open+Sans&family=Oxygen&family=Poppins:ital,wght@0,400;0,500;1,500&family=Raleway:wght@300;400&family=Roboto:ital,wght@0,400;0,500;1,400&family=Rubik&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1>Bat Ball Stump Game</h1>
+    <button id="bat-btn" class="btn" onclick="
+    console.log('you are chosen bat')
+    // this genrate random no between 0 to 1 for computerChoicer
+    // use Math.random for generate random no
+    let randomNumber = Math.random() *3;
+    console.log(randomNumber)
+    if (randomNumber>0 && randomNumber<= 1){
+        console.log('computer chosen bat')
+    } else if (randomNumber>1 && randomNumber<=2){
+        console.log('computer chosen ball')
+    }else{
+        console.log('computer chosen stump')
+    }
     
+// continue ........
+
+    
+    
+    ">Bat</button>
+    <button id="ball-btn" class="btn" onclick="
+    console.log('you are chosen ball')
+    
+    
+    "> Ball</button>
+    <button id="stump-btn" class="btn" onclick="
+    console.log('you are chosen stump')
+    
+    
+
+
+    ">Stump</button>
+
+    <div class="score-board">
+        <input type="text" class="score">
+    </div>
+    <script src="game.js"></script>
 </body>
 </html>
