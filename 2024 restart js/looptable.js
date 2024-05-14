@@ -13,7 +13,7 @@
 //     i++;
 // }
 
-// do while
+// do while in function
 function loopertable(){
     var j = 1;
 do{
