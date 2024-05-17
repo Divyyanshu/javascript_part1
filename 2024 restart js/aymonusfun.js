@@ -19,12 +19,11 @@ div();
 
 
 // Arrow function
-
 let a = ()=> console.log("hello dk");
 a();
 
 
 let name = (g,j) => console.log(g/j);
-
-
 name(802445,50);
+
+

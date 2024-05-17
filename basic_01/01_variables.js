@@ -7,12 +7,14 @@ var accountEmail = "dtailor1881@gmail.com";
 let accountCity = "jaipur";
 let accountStatement;
 
-//  speciall..! var ko use na kre kyu ki isme  vlock scope or function scope ki dikht hai 
+//  special..! var ko use na kre kyu ki isme  vlock scope or function scope ki dikht hai
 
 console.table([
   accountId,
   accountEmail,
   accountStatement,
-  accountName,
-  accountCity,
+  accountName
 ]);
+
+
+
