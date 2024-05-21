@@ -26,4 +26,9 @@ a();
 let name = (g,j) => console.log(g/j);
 name(802445,50);
 
+let circleRadius = function (l,k){
+    console.log(l*k)
+}
 
+
+circleRadius(10,5);
