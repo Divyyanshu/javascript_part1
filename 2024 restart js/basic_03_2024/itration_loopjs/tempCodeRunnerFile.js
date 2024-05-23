@@ -1,0 +1,1 @@
+const element = array[i];
