@@ -46,6 +46,10 @@ const books = [
 let username = books.filter((bk)=> bk.genric === "histroy");
  let usernames = books.filter((bk)=>{
  return bk.publish >= 2000;
-});
-console.log(username)
+ });
+ let usernamed = books.filter((bk)=>
+    bk.edition < 2013);
+
+console.log(username);
 console.log(usernames);
+console.log(usernamed);

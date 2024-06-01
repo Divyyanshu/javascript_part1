@@ -14,4 +14,4 @@ myNum.forEach((num)=>{
     }
 })
 
-console.log(mynewnum)
+console.log(mynewnum);
