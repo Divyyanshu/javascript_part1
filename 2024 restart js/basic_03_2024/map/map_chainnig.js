@@ -13,5 +13,6 @@ const mynewnumber = myNumber
                             .map((number)=> {return number *10})
                             .map((number)=> number+1)
                             .filter((number)=>{return number >= 51 || number == 100})
+                            .reduce
 
                             console.log(mynewnumber);

@@ -32,4 +32,4 @@ const course = [
 const totalpricebill = course.reduce(
     (accumulator,course)=> accumulator + course.price
 ,0)
-console.log(`total Bill of course is ${totalpricebill}`)
+// console.log(`total Bill of course is ${totalpricebill}`)
